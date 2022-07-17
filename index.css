@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&family=Quicksand:wght@300;400;500;600;700&family=Sen&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_app{
+  width: 30%;
+  margin: 10px auto 10px auto;
+  padding: 0px;
+  background-color: rgb(46, 45, 45);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.header{
+  background-color: inherit;
+  
+}
+
+.head{
+  margin: 0 auto;
+  width: 120px;
+  margin-top: 10px;
+}
+
+.header img{
+  border-radius: 60px;
+  
+}
+.header h4{
+  text-align: center;
+
+}
+
+.header p{
+  text-align: center;
+  font-weight: 300;
+}
+
+.info{
+  background-color: inherit;
+  padding: 0px 15px 0px 15px;
+}
+
+.footer{
+  background-color: inherit;
+}
+
+.footer-inner{
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-inner svg{
+  fill: #fff;
+  transition: all 0.5s ease;
+}
+
+.footer-inner svg :hover{
+  fill: rgb(54, 108, 207);
+  transition: all 0.5s ease;
+}
